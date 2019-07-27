@@ -20,7 +20,7 @@ def lifecycle_version = "2.0.0"
 
 Then, created a MainActivityObserver Java Classs. 
 
-
+```java 
 
 import android.util.Log;
 
@@ -28,8 +28,6 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 
-
-```java 
 public class MainActivityObserver implements LifecycleObserver {
 
 
